@@ -1,0 +1,77 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Minecraft: Story Mode</title>
+<link rel="icon" href="data:,">
+<style>
+@font-face{font-family:Rubik;src:url(rubik.woff2) format("woff2");font-weight:300 900;font-display:block}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#000}
+#canvas{--aspect:1.7777778;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:min(100vw,calc(100vh*var(--aspect)));height:min(100vh,calc(100vw/var(--aspect)));background:#000;display:block;outline:none;cursor:none}
+#start{--w:min(100vw,177.7778vh);--h:calc(var(--w)*.5625);position:absolute;inset:0;width:100%;height:100%;margin:0;padding:0;border:0;background:#6c8fdb url(backdrop.jpg) center/cover no-repeat;color:#fff;font:500 18px Rubik,system-ui,sans-serif;cursor:pointer}
+#start:disabled{cursor:progress}
+#start.hidden{display:none}
+#logo{position:absolute;left:50%;top:calc(50% - var(--h)*.061);width:calc(var(--w)*.718);transform:translate(-50%,-50%);user-select:none;pointer-events:none}
+#status{position:absolute;left:0;right:0;top:calc(50% + var(--h)*.218 - .6em);margin:0 auto;width:max-content;max-width:92vw;font-size:max(15px,calc(var(--h)*.032));line-height:1.2;letter-spacing:.02em;text-align:center;text-shadow:0 2px 6px rgba(10,20,50,.75),0 0 2px rgba(10,20,50,.9)}
+/* Minecraft: Story Mode-inspired loading bar */
+#loading{position:absolute;left:50%;top:calc(50% + var(--h)*.285);transform:translateX(-50%);width:min(38vw,calc(var(--w)*.34));min-width:210px;max-width:620px;pointer-events:none}
+#loading-track{height:14px;box-sizing:border-box;padding:3px;background:#161719;border:2px solid #b5b7b8;box-shadow:0 2px 0 #333,0 0 0 1px rgba(0,0,0,.75);overflow:hidden}
+#loading-fill{height:100%;width:0%;background:linear-gradient(180deg,#f6f6f6 0%,#c8c8c8 42%,#858585 100%);transition:width .15s linear;box-shadow:inset 0 1px rgba(255,255,255,.8)}
+#loading-meta{display:flex;justify-content:space-between;gap:12px;margin-top:7px;color:#fff;font:500 12px Rubik,system-ui,sans-serif;letter-spacing:.04em;text-shadow:0 2px 3px #000}
+#loading-percent{font-variant-numeric:tabular-nums}
+#options{position:absolute;left:50%;bottom:5vh;transform:translateX(-50%);width:max-content;max-width:92vw;box-sizing:border-box;display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;padding:12px 18px;border-radius:10px;background:rgba(10,14,24,.66);color:#c9d2e6;font:13px Rubik,system-ui,sans-serif;font-size:clamp(13px,1.6vh,20px)}
+#options.hidden{display:none}
+#options label{display:flex;flex-direction:column;gap:4px}
+#options select{background:#111;color:#ddd;border:1px solid #333;border-radius:4px;padding:5px 8px;font:inherit;cursor:pointer}
+#options select:disabled{color:#666;cursor:default}
+@media(max-width:600px){#loading{width:58vw;min-width:0}#loading-track{height:12px}#loading-meta{font-size:11px}}
+</style>
+</head>
+<body>
+<canvas id="canvas" width="1920" height="1080" tabindex="0"></canvas>
+
+<button id="start" disabled>
+  <img id="logo" src="logo.png" alt="Minecraft: Story Mode WASM Edition" draggable="false">
+  <span id="status">Loading…</span>
+  <div id="loading" role="progressbar" aria-label="Game loading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div id="loading-track"><div id="loading-fill"></div></div>
+    <div id="loading-meta">
+      <span id="loading-label">Preparing game…</span>
+      <span id="loading-percent">0%</span>
+    </div>
+  </div>
+</button>
+
+<div id="options">
+<label>Quality<select id="option-quality"></select></label>
+<label>Frame rate<select id="option-fps"><option value="60">60 fps</option><option value="uncapped">Unlimited</option></select></label>
+<label>Anti-aliasing<select id="option-aa"><option value="smooth">Smooth</option><option value="sharp">Sharp</option></select></label>
+<label>Shadows<select id="option-shadows"><option value="auto">Auto</option><option value="on">On</option><option value="off">Off</option></select></label>
+<label>Multithreading<select id="option-threads"><option value="on">On</option><option value="off">Off</option></select></label>
+</div>
+
+<script>
+/* Loader API: call window.setGameLoadingProgress(percentage, label). */
+window.setGameLoadingProgress = function(percentage, label) {
+  const value = Math.max(0, Math.min(100, Number(percentage) || 0));
+  const fill = document.getElementById("loading-fill");
+  const percent = document.getElementById("loading-percent");
+  const bar = document.getElementById("loading");
+  const text = document.getElementById("loading-label");
+
+  fill.style.width = value + "%";
+  percent.textContent = Math.floor(value) + "%";
+  bar.setAttribute("aria-valuenow", String(Math.floor(value)));
+
+  if (label) text.textContent = label;
+};
+</script>
+
+<script src="quality.js"></script>
+<script src="filesystem.js"></script>
+<script src="audio.js"></script>
+<script src="loader.js"></script>
+</body>
+</html>

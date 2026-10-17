@@ -1,0 +1,4529 @@
+[
+  {
+    "index": 0,
+    "token": 4261412864,
+    "iat": 12750996,
+    "library": "KERNEL32.dll",
+    "name": "GetModuleFileNameW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 1,
+    "token": 4261412868,
+    "iat": 12751000,
+    "library": "KERNEL32.dll",
+    "name": "VirtualAlloc",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 2,
+    "token": 4261412872,
+    "iat": 12751004,
+    "library": "KERNEL32.dll",
+    "name": "VirtualFree",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 3,
+    "token": 4261412876,
+    "iat": 12751008,
+    "library": "KERNEL32.dll",
+    "name": "InterlockedPushEntrySList",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 4,
+    "token": 4261412880,
+    "iat": 12751012,
+    "library": "KERNEL32.dll",
+    "name": "SetEnvironmentVariableA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 5,
+    "token": 4261412884,
+    "iat": 12751016,
+    "library": "KERNEL32.dll",
+    "name": "WriteConsoleW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 6,
+    "token": 4261412888,
+    "iat": 12751020,
+    "library": "KERNEL32.dll",
+    "name": "GetProcessHeap",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 7,
+    "token": 4261412892,
+    "iat": 12751024,
+    "library": "KERNEL32.dll",
+    "name": "SetStdHandle",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 8,
+    "token": 4261412896,
+    "iat": 12751028,
+    "library": "KERNEL32.dll",
+    "name": "GetExitCodeProcess",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 9,
+    "token": 4261412900,
+    "iat": 12751032,
+    "library": "KERNEL32.dll",
+    "name": "CreatePipe",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 10,
+    "token": 4261412904,
+    "iat": 12751036,
+    "library": "KERNEL32.dll",
+    "name": "CompareStringW",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 11,
+    "token": 4261412908,
+    "iat": 12751040,
+    "library": "KERNEL32.dll",
+    "name": "FlushFileBuffers",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 12,
+    "token": 4261412912,
+    "iat": 12751044,
+    "library": "KERNEL32.dll",
+    "name": "GetConsoleCP",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 13,
+    "token": 4261412916,
+    "iat": 12751048,
+    "library": "KERNEL32.dll",
+    "name": "GetFullPathNameA",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 14,
+    "token": 4261412920,
+    "iat": 12751052,
+    "library": "KERNEL32.dll",
+    "name": "GetDriveTypeW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 15,
+    "token": 4261412924,
+    "iat": 12751056,
+    "library": "KERNEL32.dll",
+    "name": "GetCurrentDirectoryW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 16,
+    "token": 4261412928,
+    "iat": 12751060,
+    "library": "KERNEL32.dll",
+    "name": "GetStringTypeW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 17,
+    "token": 4261412932,
+    "iat": 12751064,
+    "library": "KERNEL32.dll",
+    "name": "InterlockedPopEntrySList",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 18,
+    "token": 4261412936,
+    "iat": 12751068,
+    "library": "KERNEL32.dll",
+    "name": "IsValidLocale",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 19,
+    "token": 4261412940,
+    "iat": 12751072,
+    "library": "KERNEL32.dll",
+    "name": "EnumSystemLocalesA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 20,
+    "token": 4261412944,
+    "iat": 12751076,
+    "library": "KERNEL32.dll",
+    "name": "GetLocaleInfoA",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 21,
+    "token": 4261412948,
+    "iat": 12751080,
+    "library": "KERNEL32.dll",
+    "name": "GetUserDefaultLCID",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 22,
+    "token": 4261412952,
+    "iat": 12751084,
+    "library": "KERNEL32.dll",
+    "name": "GetLocaleInfoW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 23,
+    "token": 4261412956,
+    "iat": 12751088,
+    "library": "KERNEL32.dll",
+    "name": "SetHandleCount",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 24,
+    "token": 4261412960,
+    "iat": 12751092,
+    "library": "KERNEL32.dll",
+    "name": "GetEnvironmentStringsW",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 25,
+    "token": 4261412964,
+    "iat": 12751096,
+    "library": "KERNEL32.dll",
+    "name": "FreeEnvironmentStringsW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 26,
+    "token": 4261412968,
+    "iat": 12751100,
+    "library": "KERNEL32.dll",
+    "name": "GetModuleFileNameA",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 27,
+    "token": 4261412972,
+    "iat": 12751104,
+    "library": "KERNEL32.dll",
+    "name": "IsValidCodePage",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 28,
+    "token": 4261412976,
+    "iat": 12751108,
+    "library": "KERNEL32.dll",
+    "name": "GetOEMCP",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 29,
+    "token": 4261412980,
+    "iat": 12751112,
+    "library": "KERNEL32.dll",
+    "name": "GetACP",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 30,
+    "token": 4261412984,
+    "iat": 12751116,
+    "library": "KERNEL32.dll",
+    "name": "IsProcessorFeaturePresent",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 31,
+    "token": 4261412988,
+    "iat": 12751120,
+    "library": "KERNEL32.dll",
+    "name": "GetCPInfo",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 32,
+    "token": 4261412992,
+    "iat": 12751124,
+    "library": "KERNEL32.dll",
+    "name": "LCMapStringW",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 33,
+    "token": 4261412996,
+    "iat": 12751128,
+    "library": "KERNEL32.dll",
+    "name": "TerminateProcess",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 34,
+    "token": 4261413000,
+    "iat": 12751132,
+    "library": "KERNEL32.dll",
+    "name": "UnhandledExceptionFilter",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 35,
+    "token": 4261413004,
+    "iat": 12751136,
+    "library": "KERNEL32.dll",
+    "name": "GetConsoleMode",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 36,
+    "token": 4261413008,
+    "iat": 12751140,
+    "library": "KERNEL32.dll",
+    "name": "SetConsoleMode",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 37,
+    "token": 4261413012,
+    "iat": 12751144,
+    "library": "KERNEL32.dll",
+    "name": "ReadConsoleInputA",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 38,
+    "token": 4261413016,
+    "iat": 12751148,
+    "library": "KERNEL32.dll",
+    "name": "CreateFileA",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 39,
+    "token": 4261413020,
+    "iat": 12751152,
+    "library": "KERNEL32.dll",
+    "name": "GetFileAttributesA",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 40,
+    "token": 4261413024,
+    "iat": 12751156,
+    "library": "KERNEL32.dll",
+    "name": "SetFileAttributesA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 41,
+    "token": 4261413028,
+    "iat": 12751160,
+    "library": "KERNEL32.dll",
+    "name": "SetConsoleCtrlHandler",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 42,
+    "token": 4261413032,
+    "iat": 12751164,
+    "library": "KERNEL32.dll",
+    "name": "GetTimeZoneInformation",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 43,
+    "token": 4261413036,
+    "iat": 12751168,
+    "library": "KERNEL32.dll",
+    "name": "FindFirstFileExA",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 44,
+    "token": 4261413040,
+    "iat": 12751172,
+    "library": "KERNEL32.dll",
+    "name": "GetDriveTypeA",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 45,
+    "token": 4261413044,
+    "iat": 12751176,
+    "library": "KERNEL32.dll",
+    "name": "PeekNamedPipe",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 46,
+    "token": 4261413048,
+    "iat": 12751180,
+    "library": "KERNEL32.dll",
+    "name": "FileTimeToLocalFileTime",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 47,
+    "token": 4261413052,
+    "iat": 12751184,
+    "library": "KERNEL32.dll",
+    "name": "FileTimeToSystemTime",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 48,
+    "token": 4261413056,
+    "iat": 12751188,
+    "library": "KERNEL32.dll",
+    "name": "CreateProcessA",
+    "nargs": 10,
+    "convention": "stdcall"
+  },
+  {
+    "index": 49,
+    "token": 4261413060,
+    "iat": 12751192,
+    "library": "KERNEL32.dll",
+    "name": "MoveFileA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 50,
+    "token": 4261413064,
+    "iat": 12751196,
+    "library": "KERNEL32.dll",
+    "name": "GetDateFormatA",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 51,
+    "token": 4261413068,
+    "iat": 12751200,
+    "library": "KERNEL32.dll",
+    "name": "GetTimeFormatA",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 52,
+    "token": 4261413072,
+    "iat": 12751204,
+    "library": "KERNEL32.dll",
+    "name": "ExitThread",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 53,
+    "token": 4261413076,
+    "iat": 12751208,
+    "library": "KERNEL32.dll",
+    "name": "GetSystemTimeAsFileTime",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 54,
+    "token": 4261413080,
+    "iat": 12751212,
+    "library": "KERNEL32.dll",
+    "name": "GetFullPathNameW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 55,
+    "token": 4261413084,
+    "iat": 12751216,
+    "library": "KERNEL32.dll",
+    "name": "ExitProcess",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 56,
+    "token": 4261413088,
+    "iat": 12751220,
+    "library": "KERNEL32.dll",
+    "name": "CreateSemaphoreW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 57,
+    "token": 4261413092,
+    "iat": 12751224,
+    "library": "KERNEL32.dll",
+    "name": "HeapSetInformation",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 58,
+    "token": 4261413096,
+    "iat": 12751228,
+    "library": "KERNEL32.dll",
+    "name": "GetCommandLineA",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 59,
+    "token": 4261413100,
+    "iat": 12751232,
+    "library": "KERNEL32.dll",
+    "name": "RtlUnwind",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 60,
+    "token": 4261413104,
+    "iat": 12751236,
+    "library": "KERNEL32.dll",
+    "name": "InterlockedCompareExchange",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 61,
+    "token": 4261413108,
+    "iat": 12751240,
+    "library": "KERNEL32.dll",
+    "name": "DecodePointer",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 62,
+    "token": 4261413112,
+    "iat": 12751244,
+    "library": "KERNEL32.dll",
+    "name": "EncodePointer",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 63,
+    "token": 4261413116,
+    "iat": 12751248,
+    "library": "KERNEL32.dll",
+    "name": "LoadLibraryA",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 64,
+    "token": 4261413120,
+    "iat": 12751252,
+    "library": "KERNEL32.dll",
+    "name": "InterlockedExchange",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 65,
+    "token": 4261413124,
+    "iat": 12751256,
+    "library": "KERNEL32.dll",
+    "name": "LocalAlloc",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 66,
+    "token": 4261413128,
+    "iat": 12751260,
+    "library": "KERNEL32.dll",
+    "name": "SetNamedPipeHandleState",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 67,
+    "token": 4261413132,
+    "iat": 12751264,
+    "library": "KERNEL32.dll",
+    "name": "TransactNamedPipe",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 68,
+    "token": 4261413136,
+    "iat": 12751268,
+    "library": "KERNEL32.dll",
+    "name": "DuplicateHandle",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 69,
+    "token": 4261413140,
+    "iat": 12751272,
+    "library": "KERNEL32.dll",
+    "name": "WaitForMultipleObjects",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 70,
+    "token": 4261413144,
+    "iat": 12751276,
+    "library": "KERNEL32.dll",
+    "name": "WaitNamedPipeW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 71,
+    "token": 4261413148,
+    "iat": 12751280,
+    "library": "KERNEL32.dll",
+    "name": "GetSystemTime",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 72,
+    "token": 4261413152,
+    "iat": 12751284,
+    "library": "KERNEL32.dll",
+    "name": "OpenThread",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 73,
+    "token": 4261413156,
+    "iat": 12751288,
+    "library": "KERNEL32.dll",
+    "name": "SuspendThread",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 74,
+    "token": 4261413160,
+    "iat": 12751292,
+    "library": "KERNEL32.dll",
+    "name": "GetThreadContext",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 75,
+    "token": 4261413164,
+    "iat": 12751296,
+    "library": "KERNEL32.dll",
+    "name": "RtlCaptureContext",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 76,
+    "token": 4261413168,
+    "iat": 12751300,
+    "library": "KERNEL32.dll",
+    "name": "TerminateThread",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 77,
+    "token": 4261413172,
+    "iat": 12751304,
+    "library": "KERNEL32.dll",
+    "name": "VirtualQueryEx",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 78,
+    "token": 4261413176,
+    "iat": 12751308,
+    "library": "KERNEL32.dll",
+    "name": "GetProcessId",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 79,
+    "token": 4261413180,
+    "iat": 12751312,
+    "library": "KERNEL32.dll",
+    "name": "SetUnhandledExceptionFilter",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 80,
+    "token": 4261413184,
+    "iat": 12751316,
+    "library": "KERNEL32.dll",
+    "name": "GlobalMemoryStatus",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 81,
+    "token": 4261413188,
+    "iat": 12751320,
+    "library": "KERNEL32.dll",
+    "name": "GetCurrentProcessId",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 82,
+    "token": 4261413192,
+    "iat": 12751324,
+    "library": "KERNEL32.dll",
+    "name": "FlushConsoleInputBuffer",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 83,
+    "token": 4261413196,
+    "iat": 12751328,
+    "library": "KERNEL32.dll",
+    "name": "GetStdHandle",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 84,
+    "token": 4261413200,
+    "iat": 12751332,
+    "library": "KERNEL32.dll",
+    "name": "GetFileType",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 85,
+    "token": 4261413204,
+    "iat": 12751336,
+    "library": "KERNEL32.dll",
+    "name": "GetVersion",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 86,
+    "token": 4261413208,
+    "iat": 12751340,
+    "library": "KERNEL32.dll",
+    "name": "FormatMessageA",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 87,
+    "token": 4261413212,
+    "iat": 12751344,
+    "library": "KERNEL32.dll",
+    "name": "ExpandEnvironmentStringsA",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 88,
+    "token": 4261413216,
+    "iat": 12751348,
+    "library": "KERNEL32.dll",
+    "name": "VerSetConditionMask",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 89,
+    "token": 4261413220,
+    "iat": 12751352,
+    "library": "KERNEL32.dll",
+    "name": "VerifyVersionInfoW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 90,
+    "token": 4261413224,
+    "iat": 12751356,
+    "library": "KERNEL32.dll",
+    "name": "SleepEx",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 91,
+    "token": 4261413228,
+    "iat": 12751360,
+    "library": "KERNEL32.dll",
+    "name": "GetTickCount",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 92,
+    "token": 4261413232,
+    "iat": 12751364,
+    "library": "KERNEL32.dll",
+    "name": "GetTempPathW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 93,
+    "token": 4261413236,
+    "iat": 12751368,
+    "library": "KERNEL32.dll",
+    "name": "CreateFileW",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 94,
+    "token": 4261413240,
+    "iat": 12751372,
+    "library": "KERNEL32.dll",
+    "name": "GetFileInformationByHandle",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 95,
+    "token": 4261413244,
+    "iat": 12751376,
+    "library": "KERNEL32.dll",
+    "name": "WriteFile",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 96,
+    "token": 4261413248,
+    "iat": 12751380,
+    "library": "KERNEL32.dll",
+    "name": "ReadFile",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 97,
+    "token": 4261413252,
+    "iat": 12751384,
+    "library": "KERNEL32.dll",
+    "name": "SetFilePointer",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 98,
+    "token": 4261413256,
+    "iat": 12751388,
+    "library": "KERNEL32.dll",
+    "name": "SetEndOfFile",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 99,
+    "token": 4261413260,
+    "iat": 12751392,
+    "library": "KERNEL32.dll",
+    "name": "lstrlenA",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 100,
+    "token": 4261413264,
+    "iat": 12751396,
+    "library": "KERNEL32.dll",
+    "name": "CreateDirectoryW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 101,
+    "token": 4261413268,
+    "iat": 12751400,
+    "library": "KERNEL32.dll",
+    "name": "MoveFileExW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 102,
+    "token": 4261413272,
+    "iat": 12751404,
+    "library": "KERNEL32.dll",
+    "name": "DeleteFileW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 103,
+    "token": 4261413276,
+    "iat": 12751408,
+    "library": "KERNEL32.dll",
+    "name": "FindNextFileW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 104,
+    "token": 4261413280,
+    "iat": 12751412,
+    "library": "KERNEL32.dll",
+    "name": "GetFileAttributesExW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 105,
+    "token": 4261413284,
+    "iat": 12751416,
+    "library": "KERNEL32.dll",
+    "name": "SetFileAttributesW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 106,
+    "token": 4261413288,
+    "iat": 12751420,
+    "library": "KERNEL32.dll",
+    "name": "GetFileAttributesW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 107,
+    "token": 4261413292,
+    "iat": 12751424,
+    "library": "KERNEL32.dll",
+    "name": "GetVersionExW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 108,
+    "token": 4261413296,
+    "iat": 12751428,
+    "library": "KERNEL32.dll",
+    "name": "FormatMessageW",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 109,
+    "token": 4261413300,
+    "iat": 12751432,
+    "library": "KERNEL32.dll",
+    "name": "LocalFree",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 110,
+    "token": 4261413304,
+    "iat": 12751436,
+    "library": "KERNEL32.dll",
+    "name": "FindFirstFileW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 111,
+    "token": 4261413308,
+    "iat": 12751440,
+    "library": "KERNEL32.dll",
+    "name": "CreateEventW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 112,
+    "token": 4261413312,
+    "iat": 12751444,
+    "library": "KERNEL32.dll",
+    "name": "ResetEvent",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 113,
+    "token": 4261413316,
+    "iat": 12751448,
+    "library": "KERNEL32.dll",
+    "name": "SetEvent",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 114,
+    "token": 4261413320,
+    "iat": 12751452,
+    "library": "KERNEL32.dll",
+    "name": "ReleaseSemaphore",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 115,
+    "token": 4261413324,
+    "iat": 12751456,
+    "library": "KERNEL32.dll",
+    "name": "ResumeThread",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 116,
+    "token": 4261413328,
+    "iat": 12751460,
+    "library": "KERNEL32.dll",
+    "name": "CloseHandle",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 117,
+    "token": 4261413332,
+    "iat": 12751464,
+    "library": "KERNEL32.dll",
+    "name": "TlsAlloc",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 118,
+    "token": 4261413336,
+    "iat": 12751468,
+    "library": "KERNEL32.dll",
+    "name": "TlsGetValue",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 119,
+    "token": 4261413340,
+    "iat": 12751472,
+    "library": "KERNEL32.dll",
+    "name": "TlsFree",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 120,
+    "token": 4261413344,
+    "iat": 12751476,
+    "library": "KERNEL32.dll",
+    "name": "TlsSetValue",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 121,
+    "token": 4261413348,
+    "iat": 12751480,
+    "library": "KERNEL32.dll",
+    "name": "GetSystemInfo",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 122,
+    "token": 4261413352,
+    "iat": 12751484,
+    "library": "KERNEL32.dll",
+    "name": "GetComputerNameA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 123,
+    "token": 4261413356,
+    "iat": 12751488,
+    "library": "KERNEL32.dll",
+    "name": "GetVolumeInformationW",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 124,
+    "token": 4261413360,
+    "iat": 12751492,
+    "library": "KERNEL32.dll",
+    "name": "GetUserGeoID",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 125,
+    "token": 4261413364,
+    "iat": 12751496,
+    "library": "KERNEL32.dll",
+    "name": "IsDebuggerPresent",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 126,
+    "token": 4261413368,
+    "iat": 12751500,
+    "library": "KERNEL32.dll",
+    "name": "GetSystemDefaultLangID",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 127,
+    "token": 4261413372,
+    "iat": 12751504,
+    "library": "KERNEL32.dll",
+    "name": "GetCurrentThread",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 128,
+    "token": 4261413376,
+    "iat": 12751508,
+    "library": "KERNEL32.dll",
+    "name": "SetThreadAffinityMask",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 129,
+    "token": 4261413380,
+    "iat": 12751512,
+    "library": "KERNEL32.dll",
+    "name": "SwitchToThread",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 130,
+    "token": 4261413384,
+    "iat": 12751516,
+    "library": "KERNEL32.dll",
+    "name": "QueryPerformanceFrequency",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 131,
+    "token": 4261413388,
+    "iat": 12751520,
+    "library": "KERNEL32.dll",
+    "name": "InitializeCriticalSection",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 132,
+    "token": 4261413392,
+    "iat": 12751524,
+    "library": "KERNEL32.dll",
+    "name": "GetEnvironmentVariableA",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 133,
+    "token": 4261413396,
+    "iat": 12751528,
+    "library": "KERNEL32.dll",
+    "name": "FindFirstFileA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 134,
+    "token": 4261413400,
+    "iat": 12751532,
+    "library": "KERNEL32.dll",
+    "name": "FindNextFileA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 135,
+    "token": 4261413404,
+    "iat": 12751536,
+    "library": "KERNEL32.dll",
+    "name": "FindClose",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 136,
+    "token": 4261413408,
+    "iat": 12751540,
+    "library": "KERNEL32.dll",
+    "name": "DeleteFileA",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 137,
+    "token": 4261413412,
+    "iat": 12751544,
+    "library": "KERNEL32.dll",
+    "name": "CompareFileTime",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 138,
+    "token": 4261413416,
+    "iat": 12751548,
+    "library": "KERNEL32.dll",
+    "name": "LoadLibraryExW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 139,
+    "token": 4261413420,
+    "iat": 12751552,
+    "library": "KERNEL32.dll",
+    "name": "FindResourceW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 140,
+    "token": 4261413424,
+    "iat": 12751556,
+    "library": "KERNEL32.dll",
+    "name": "LoadResource",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 141,
+    "token": 4261413428,
+    "iat": 12751560,
+    "library": "KERNEL32.dll",
+    "name": "SizeofResource",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 142,
+    "token": 4261413432,
+    "iat": 12751564,
+    "library": "KERNEL32.dll",
+    "name": "MultiByteToWideChar",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 143,
+    "token": 4261413436,
+    "iat": 12751568,
+    "library": "KERNEL32.dll",
+    "name": "GlobalAlloc",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 144,
+    "token": 4261413440,
+    "iat": 12751572,
+    "library": "KERNEL32.dll",
+    "name": "GlobalLock",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 145,
+    "token": 4261413444,
+    "iat": 12751576,
+    "library": "KERNEL32.dll",
+    "name": "GlobalUnlock",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 146,
+    "token": 4261413448,
+    "iat": 12751580,
+    "library": "KERNEL32.dll",
+    "name": "SetLastError",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 147,
+    "token": 4261413452,
+    "iat": 12751584,
+    "library": "KERNEL32.dll",
+    "name": "MulDiv",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 148,
+    "token": 4261413456,
+    "iat": 12751588,
+    "library": "KERNEL32.dll",
+    "name": "lstrcmpW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 149,
+    "token": 4261413460,
+    "iat": 12751592,
+    "library": "KERNEL32.dll",
+    "name": "GetCurrentProcess",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 150,
+    "token": 4261413464,
+    "iat": 12751596,
+    "library": "KERNEL32.dll",
+    "name": "FlushInstructionCache",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 151,
+    "token": 4261413468,
+    "iat": 12751600,
+    "library": "KERNEL32.dll",
+    "name": "GetLastError",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 152,
+    "token": 4261413472,
+    "iat": 12751604,
+    "library": "KERNEL32.dll",
+    "name": "LoadLibraryW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 153,
+    "token": 4261413476,
+    "iat": 12751608,
+    "library": "KERNEL32.dll",
+    "name": "WideCharToMultiByte",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 154,
+    "token": 4261413480,
+    "iat": 12751612,
+    "library": "KERNEL32.dll",
+    "name": "GetStartupInfoW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 155,
+    "token": 4261413484,
+    "iat": 12751616,
+    "library": "KERNEL32.dll",
+    "name": "QueryPerformanceCounter",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 156,
+    "token": 4261413488,
+    "iat": 12751620,
+    "library": "KERNEL32.dll",
+    "name": "GetModuleHandleW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 157,
+    "token": 4261413492,
+    "iat": 12751624,
+    "library": "KERNEL32.dll",
+    "name": "WaitForSingleObject",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 158,
+    "token": 4261413496,
+    "iat": 12751628,
+    "library": "KERNEL32.dll",
+    "name": "CreateThread",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 159,
+    "token": 4261413500,
+    "iat": 12751632,
+    "library": "KERNEL32.dll",
+    "name": "DeleteCriticalSection",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 160,
+    "token": 4261413504,
+    "iat": 12751636,
+    "library": "KERNEL32.dll",
+    "name": "HeapLock",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 161,
+    "token": 4261413508,
+    "iat": 12751640,
+    "library": "KERNEL32.dll",
+    "name": "HeapUnlock",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 162,
+    "token": 4261413512,
+    "iat": 12751644,
+    "library": "KERNEL32.dll",
+    "name": "HeapAlloc",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 163,
+    "token": 4261413516,
+    "iat": 12751648,
+    "library": "KERNEL32.dll",
+    "name": "HeapReAlloc",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 164,
+    "token": 4261413520,
+    "iat": 12751652,
+    "library": "KERNEL32.dll",
+    "name": "HeapFree",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 165,
+    "token": 4261413524,
+    "iat": 12751656,
+    "library": "KERNEL32.dll",
+    "name": "HeapSize",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 166,
+    "token": 4261413528,
+    "iat": 12751660,
+    "library": "KERNEL32.dll",
+    "name": "HeapCreate",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 167,
+    "token": 4261413532,
+    "iat": 12751664,
+    "library": "KERNEL32.dll",
+    "name": "GlobalMemoryStatusEx",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 168,
+    "token": 4261413536,
+    "iat": 12751668,
+    "library": "KERNEL32.dll",
+    "name": "InitializeCriticalSectionAndSpinCount",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 169,
+    "token": 4261413540,
+    "iat": 12751672,
+    "library": "KERNEL32.dll",
+    "name": "EnterCriticalSection",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 170,
+    "token": 4261413544,
+    "iat": 12751676,
+    "library": "KERNEL32.dll",
+    "name": "LeaveCriticalSection",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 171,
+    "token": 4261413548,
+    "iat": 12751680,
+    "library": "KERNEL32.dll",
+    "name": "RaiseException",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 172,
+    "token": 4261413552,
+    "iat": 12751684,
+    "library": "KERNEL32.dll",
+    "name": "GetCurrentThreadId",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 173,
+    "token": 4261413556,
+    "iat": 12751688,
+    "library": "KERNEL32.dll",
+    "name": "lstrlenW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 174,
+    "token": 4261413560,
+    "iat": 12751692,
+    "library": "KERNEL32.dll",
+    "name": "GetProcAddress",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 175,
+    "token": 4261413564,
+    "iat": 12751696,
+    "library": "KERNEL32.dll",
+    "name": "InterlockedIncrement",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 176,
+    "token": 4261413568,
+    "iat": 12751700,
+    "library": "KERNEL32.dll",
+    "name": "InterlockedDecrement",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 177,
+    "token": 4261413572,
+    "iat": 12751704,
+    "library": "KERNEL32.dll",
+    "name": "lstrcmpiW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 178,
+    "token": 4261413576,
+    "iat": 12751708,
+    "library": "KERNEL32.dll",
+    "name": "Sleep",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 179,
+    "token": 4261413580,
+    "iat": 12751712,
+    "library": "KERNEL32.dll",
+    "name": "FreeLibrary",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 180,
+    "token": 4261413584,
+    "iat": 12751784,
+    "library": "USER32.dll",
+    "name": "DefWindowProcW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 181,
+    "token": 4261413588,
+    "iat": 12751788,
+    "library": "USER32.dll",
+    "name": "PeekMessageW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 182,
+    "token": 4261413592,
+    "iat": 12751792,
+    "library": "USER32.dll",
+    "name": "TranslateMessage",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 183,
+    "token": 4261413596,
+    "iat": 12751796,
+    "library": "USER32.dll",
+    "name": "DispatchMessageW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 184,
+    "token": 4261413600,
+    "iat": 12751800,
+    "library": "USER32.dll",
+    "name": "CharNextW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 185,
+    "token": 4261413604,
+    "iat": 12751804,
+    "library": "USER32.dll",
+    "name": "GetWindowLongW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 186,
+    "token": 4261413608,
+    "iat": 12751808,
+    "library": "USER32.dll",
+    "name": "SetWindowLongW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 187,
+    "token": 4261413612,
+    "iat": 12751812,
+    "library": "USER32.dll",
+    "name": "MessageBoxW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 188,
+    "token": 4261413616,
+    "iat": 12751816,
+    "library": "USER32.dll",
+    "name": "WaitMessage",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 189,
+    "token": 4261413620,
+    "iat": 12751820,
+    "library": "USER32.dll",
+    "name": "DestroyWindow",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 190,
+    "token": 4261413624,
+    "iat": 12751824,
+    "library": "USER32.dll",
+    "name": "ShowCursor",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 191,
+    "token": 4261413628,
+    "iat": 12751828,
+    "library": "USER32.dll",
+    "name": "GetSysColor",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 192,
+    "token": 4261413632,
+    "iat": 12751832,
+    "library": "USER32.dll",
+    "name": "MoveWindow",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 193,
+    "token": 4261413636,
+    "iat": 12751836,
+    "library": "USER32.dll",
+    "name": "SetWindowPos",
+    "nargs": 7,
+    "convention": "stdcall"
+  },
+  {
+    "index": 194,
+    "token": 4261413640,
+    "iat": 12751840,
+    "library": "USER32.dll",
+    "name": "GetClientRect",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 195,
+    "token": 4261413644,
+    "iat": 12751844,
+    "library": "USER32.dll",
+    "name": "ClientToScreen",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 196,
+    "token": 4261413648,
+    "iat": 12751848,
+    "library": "USER32.dll",
+    "name": "ScreenToClient",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 197,
+    "token": 4261413652,
+    "iat": 12751852,
+    "library": "USER32.dll",
+    "name": "GetDC",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 198,
+    "token": 4261413656,
+    "iat": 12751856,
+    "library": "USER32.dll",
+    "name": "ReleaseDC",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 199,
+    "token": 4261413660,
+    "iat": 12751860,
+    "library": "USER32.dll",
+    "name": "InvalidateRect",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 200,
+    "token": 4261413664,
+    "iat": 12751864,
+    "library": "USER32.dll",
+    "name": "InvalidateRgn",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 201,
+    "token": 4261413668,
+    "iat": 12751868,
+    "library": "USER32.dll",
+    "name": "RedrawWindow",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 202,
+    "token": 4261413672,
+    "iat": 12751872,
+    "library": "USER32.dll",
+    "name": "SetCapture",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 203,
+    "token": 4261413676,
+    "iat": 12751876,
+    "library": "USER32.dll",
+    "name": "IsChild",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 204,
+    "token": 4261413680,
+    "iat": 12751880,
+    "library": "USER32.dll",
+    "name": "GetParent",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 205,
+    "token": 4261413684,
+    "iat": 12751884,
+    "library": "USER32.dll",
+    "name": "GetDlgItem",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 206,
+    "token": 4261413688,
+    "iat": 12751888,
+    "library": "USER32.dll",
+    "name": "GetClassNameW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 207,
+    "token": 4261413692,
+    "iat": 12751892,
+    "library": "USER32.dll",
+    "name": "ReleaseCapture",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 208,
+    "token": 4261413696,
+    "iat": 12751896,
+    "library": "USER32.dll",
+    "name": "FillRect",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 209,
+    "token": 4261413700,
+    "iat": 12751900,
+    "library": "USER32.dll",
+    "name": "UnregisterClassA",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 210,
+    "token": 4261413704,
+    "iat": 12751904,
+    "library": "USER32.dll",
+    "name": "GetProcessWindowStation",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 211,
+    "token": 4261413708,
+    "iat": 12751908,
+    "library": "USER32.dll",
+    "name": "GetUserObjectInformationW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 212,
+    "token": 4261413712,
+    "iat": 12751912,
+    "library": "USER32.dll",
+    "name": "SetWindowsHookExW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 213,
+    "token": 4261413716,
+    "iat": 12751916,
+    "library": "USER32.dll",
+    "name": "MessageBeep",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 214,
+    "token": 4261413720,
+    "iat": 12751920,
+    "library": "USER32.dll",
+    "name": "LoadBitmapW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 215,
+    "token": 4261413724,
+    "iat": 12751924,
+    "library": "USER32.dll",
+    "name": "IsDialogMessageW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 216,
+    "token": 4261413728,
+    "iat": 12751928,
+    "library": "USER32.dll",
+    "name": "CallNextHookEx",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 217,
+    "token": 4261413732,
+    "iat": 12751932,
+    "library": "USER32.dll",
+    "name": "UnhookWindowsHookEx",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 218,
+    "token": 4261413736,
+    "iat": 12751936,
+    "library": "USER32.dll",
+    "name": "MonitorFromWindow",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 219,
+    "token": 4261413740,
+    "iat": 12751940,
+    "library": "USER32.dll",
+    "name": "GetMonitorInfoW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 220,
+    "token": 4261413744,
+    "iat": 12751944,
+    "library": "USER32.dll",
+    "name": "MapWindowPoints",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 221,
+    "token": 4261413748,
+    "iat": 12751948,
+    "library": "USER32.dll",
+    "name": "SetDlgItemTextW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 222,
+    "token": 4261413752,
+    "iat": 12751952,
+    "library": "USER32.dll",
+    "name": "mouse_event",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 223,
+    "token": 4261413756,
+    "iat": 12751956,
+    "library": "USER32.dll",
+    "name": "GetKeyState",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 224,
+    "token": 4261413760,
+    "iat": 12751960,
+    "library": "USER32.dll",
+    "name": "CreateDialogParamW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 225,
+    "token": 4261413764,
+    "iat": 12751964,
+    "library": "USER32.dll",
+    "name": "IsWindowVisible",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 226,
+    "token": 4261413768,
+    "iat": 12751968,
+    "library": "USER32.dll",
+    "name": "GetAsyncKeyState",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 227,
+    "token": 4261413772,
+    "iat": 12751972,
+    "library": "USER32.dll",
+    "name": "GetRawInputData",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 228,
+    "token": 4261413776,
+    "iat": 12751976,
+    "library": "USER32.dll",
+    "name": "GetCursorPos",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 229,
+    "token": 4261413780,
+    "iat": 12751980,
+    "library": "USER32.dll",
+    "name": "GetCapture",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 230,
+    "token": 4261413784,
+    "iat": 12751984,
+    "library": "USER32.dll",
+    "name": "SetCursorPos",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 231,
+    "token": 4261413788,
+    "iat": 12751988,
+    "library": "USER32.dll",
+    "name": "GetSystemMetrics",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 232,
+    "token": 4261413792,
+    "iat": 12751992,
+    "library": "USER32.dll",
+    "name": "RegisterRawInputDevices",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 233,
+    "token": 4261413796,
+    "iat": 12751996,
+    "library": "USER32.dll",
+    "name": "CopyRect",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 234,
+    "token": 4261413800,
+    "iat": 12752000,
+    "library": "USER32.dll",
+    "name": "GetActiveWindow",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 235,
+    "token": 4261413804,
+    "iat": 12752004,
+    "library": "USER32.dll",
+    "name": "ShowWindow",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 236,
+    "token": 4261413808,
+    "iat": 12752008,
+    "library": "USER32.dll",
+    "name": "LoadIconW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 237,
+    "token": 4261413812,
+    "iat": 12752012,
+    "library": "USER32.dll",
+    "name": "wsprintfW",
+    "nargs": -1,
+    "convention": "cdecl"
+  },
+  {
+    "index": 238,
+    "token": 4261413816,
+    "iat": 12752016,
+    "library": "USER32.dll",
+    "name": "LoadImageW",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 239,
+    "token": 4261413820,
+    "iat": 12752020,
+    "library": "USER32.dll",
+    "name": "PostQuitMessage",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 240,
+    "token": 4261413824,
+    "iat": 12752024,
+    "library": "USER32.dll",
+    "name": "SetCursor",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 241,
+    "token": 4261413828,
+    "iat": 12752028,
+    "library": "USER32.dll",
+    "name": "ClipCursor",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 242,
+    "token": 4261413832,
+    "iat": 12752032,
+    "library": "USER32.dll",
+    "name": "AdjustWindowRectEx",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 243,
+    "token": 4261413836,
+    "iat": 12752036,
+    "library": "USER32.dll",
+    "name": "GetWindowRect",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 244,
+    "token": 4261413840,
+    "iat": 12752040,
+    "library": "USER32.dll",
+    "name": "GetMenu",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 245,
+    "token": 4261413844,
+    "iat": 12752044,
+    "library": "USER32.dll",
+    "name": "SetForegroundWindow",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 246,
+    "token": 4261413848,
+    "iat": 12752048,
+    "library": "USER32.dll",
+    "name": "GetWindowTextLengthW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 247,
+    "token": 4261413852,
+    "iat": 12752052,
+    "library": "USER32.dll",
+    "name": "GetWindowTextW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 248,
+    "token": 4261413856,
+    "iat": 12752056,
+    "library": "USER32.dll",
+    "name": "SetWindowTextW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 249,
+    "token": 4261413860,
+    "iat": 12752060,
+    "library": "USER32.dll",
+    "name": "RegisterWindowMessageW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 250,
+    "token": 4261413864,
+    "iat": 12752064,
+    "library": "USER32.dll",
+    "name": "CreateAcceleratorTableW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 251,
+    "token": 4261413868,
+    "iat": 12752068,
+    "library": "USER32.dll",
+    "name": "CreateWindowExW",
+    "nargs": 12,
+    "convention": "stdcall"
+  },
+  {
+    "index": 252,
+    "token": 4261413872,
+    "iat": 12752072,
+    "library": "USER32.dll",
+    "name": "RegisterClassExW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 253,
+    "token": 4261413876,
+    "iat": 12752076,
+    "library": "USER32.dll",
+    "name": "LoadCursorW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 254,
+    "token": 4261413880,
+    "iat": 12752080,
+    "library": "USER32.dll",
+    "name": "GetClassInfoExW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 255,
+    "token": 4261413884,
+    "iat": 12752084,
+    "library": "USER32.dll",
+    "name": "IsWindow",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 256,
+    "token": 4261413888,
+    "iat": 12752088,
+    "library": "USER32.dll",
+    "name": "SendMessageW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 257,
+    "token": 4261413892,
+    "iat": 12752092,
+    "library": "USER32.dll",
+    "name": "SetFocus",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 258,
+    "token": 4261413896,
+    "iat": 12752096,
+    "library": "USER32.dll",
+    "name": "GetFocus",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 259,
+    "token": 4261413900,
+    "iat": 12752100,
+    "library": "USER32.dll",
+    "name": "GetWindow",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 260,
+    "token": 4261413904,
+    "iat": 12752104,
+    "library": "USER32.dll",
+    "name": "DestroyAcceleratorTable",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 261,
+    "token": 4261413908,
+    "iat": 12752108,
+    "library": "USER32.dll",
+    "name": "GetDesktopWindow",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 262,
+    "token": 4261413912,
+    "iat": 12752112,
+    "library": "USER32.dll",
+    "name": "BeginPaint",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 263,
+    "token": 4261413916,
+    "iat": 12752116,
+    "library": "USER32.dll",
+    "name": "EndPaint",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 264,
+    "token": 4261413920,
+    "iat": 12752120,
+    "library": "USER32.dll",
+    "name": "CallWindowProcW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 265,
+    "token": 4261413924,
+    "iat": 12752192,
+    "library": "WINMM.dll",
+    "name": "timeEndPeriod",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 266,
+    "token": 4261413928,
+    "iat": 12752196,
+    "library": "WINMM.dll",
+    "name": "timeGetTime",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 267,
+    "token": 4261413932,
+    "iat": 12752200,
+    "library": "WINMM.dll",
+    "name": "timeBeginPeriod",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 268,
+    "token": 4261413936,
+    "iat": 12752208,
+    "library": "WS2_32.dll",
+    "name": "__WSAFDIsSet",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 269,
+    "token": 4261413940,
+    "iat": 12752212,
+    "library": "WS2_32.dll",
+    "name": "send",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 270,
+    "token": 4261413944,
+    "iat": 12752216,
+    "library": "WS2_32.dll",
+    "name": "WSACleanup",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 271,
+    "token": 4261413948,
+    "iat": 12752220,
+    "library": "WS2_32.dll",
+    "name": "WSAGetLastError",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 272,
+    "token": 4261413952,
+    "iat": 12752224,
+    "library": "WS2_32.dll",
+    "name": "select",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 273,
+    "token": 4261413956,
+    "iat": 12752228,
+    "library": "WS2_32.dll",
+    "name": "WSAStartup",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 274,
+    "token": 4261413960,
+    "iat": 12752232,
+    "library": "WS2_32.dll",
+    "name": "WSASetLastError",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 275,
+    "token": 4261413964,
+    "iat": 12752236,
+    "library": "WS2_32.dll",
+    "name": "recv",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 276,
+    "token": 4261413968,
+    "iat": 12752240,
+    "library": "WS2_32.dll",
+    "name": "shutdown",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 277,
+    "token": 4261413972,
+    "iat": 12752244,
+    "library": "WS2_32.dll",
+    "name": "setsockopt",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 278,
+    "token": 4261413976,
+    "iat": 12752248,
+    "library": "WS2_32.dll",
+    "name": "getsockname",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 279,
+    "token": 4261413980,
+    "iat": 12752252,
+    "library": "WS2_32.dll",
+    "name": "ntohs",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 280,
+    "token": 4261413984,
+    "iat": 12752256,
+    "library": "WS2_32.dll",
+    "name": "bind",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 281,
+    "token": 4261413988,
+    "iat": 12752260,
+    "library": "WS2_32.dll",
+    "name": "htons",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 282,
+    "token": 4261413992,
+    "iat": 12752264,
+    "library": "WS2_32.dll",
+    "name": "getsockopt",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 283,
+    "token": 4261413996,
+    "iat": 12752268,
+    "library": "WS2_32.dll",
+    "name": "getpeername",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 284,
+    "token": 4261414000,
+    "iat": 12752272,
+    "library": "WS2_32.dll",
+    "name": "closesocket",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 285,
+    "token": 4261414004,
+    "iat": 12752276,
+    "library": "WS2_32.dll",
+    "name": "socket",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 286,
+    "token": 4261414008,
+    "iat": 12752280,
+    "library": "WS2_32.dll",
+    "name": "connect",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 287,
+    "token": 4261414012,
+    "iat": 12752284,
+    "library": "WS2_32.dll",
+    "name": "sendto",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 288,
+    "token": 4261414016,
+    "iat": 12752288,
+    "library": "WS2_32.dll",
+    "name": "recvfrom",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 289,
+    "token": 4261414020,
+    "iat": 12752292,
+    "library": "WS2_32.dll",
+    "name": "accept",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 290,
+    "token": 4261414024,
+    "iat": 12752296,
+    "library": "WS2_32.dll",
+    "name": "listen",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 291,
+    "token": 4261414028,
+    "iat": 12752300,
+    "library": "WS2_32.dll",
+    "name": "gethostbyname",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 292,
+    "token": 4261414032,
+    "iat": 12752304,
+    "library": "WS2_32.dll",
+    "name": "ioctlsocket",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 293,
+    "token": 4261414036,
+    "iat": 12752144,
+    "library": "WININET.dll",
+    "name": "InternetSetOptionW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 294,
+    "token": 4261414040,
+    "iat": 12752148,
+    "library": "WININET.dll",
+    "name": "HttpAddRequestHeadersW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 295,
+    "token": 4261414044,
+    "iat": 12752152,
+    "library": "WININET.dll",
+    "name": "HttpOpenRequestW",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 296,
+    "token": 4261414048,
+    "iat": 12752156,
+    "library": "WININET.dll",
+    "name": "HttpSendRequestW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 297,
+    "token": 4261414052,
+    "iat": 12752160,
+    "library": "WININET.dll",
+    "name": "InternetOpenW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 298,
+    "token": 4261414056,
+    "iat": 12752164,
+    "library": "WININET.dll",
+    "name": "InternetCrackUrlW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 299,
+    "token": 4261414060,
+    "iat": 12752168,
+    "library": "WININET.dll",
+    "name": "HttpQueryInfoW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 300,
+    "token": 4261414064,
+    "iat": 12752172,
+    "library": "WININET.dll",
+    "name": "InternetQueryDataAvailable",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 301,
+    "token": 4261414068,
+    "iat": 12752176,
+    "library": "WININET.dll",
+    "name": "InternetConnectW",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 302,
+    "token": 4261414072,
+    "iat": 12752180,
+    "library": "WININET.dll",
+    "name": "InternetCloseHandle",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 303,
+    "token": 4261414076,
+    "iat": 12752184,
+    "library": "WININET.dll",
+    "name": "InternetReadFile",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 304,
+    "token": 4261414080,
+    "iat": 12752128,
+    "library": "VERSION.dll",
+    "name": "GetFileVersionInfoW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 305,
+    "token": 4261414084,
+    "iat": 12752132,
+    "library": "VERSION.dll",
+    "name": "VerQueryValueW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 306,
+    "token": 4261414088,
+    "iat": 12752136,
+    "library": "VERSION.dll",
+    "name": "GetFileVersionInfoSizeW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 307,
+    "token": 4261414092,
+    "iat": 12750920,
+    "library": "DINPUT8.dll",
+    "name": "DirectInput8Create",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 308,
+    "token": 4261414096,
+    "iat": 12752332,
+    "library": "d3dx9_43.dll",
+    "name": "D3DXLoadSurfaceFromMemory",
+    "nargs": 10,
+    "convention": "stdcall"
+  },
+  {
+    "index": 309,
+    "token": 4261414100,
+    "iat": 12752336,
+    "library": "d3dx9_43.dll",
+    "name": "D3DXLoadSurfaceFromSurface",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 310,
+    "token": 4261414104,
+    "iat": 12752312,
+    "library": "d3d9.dll",
+    "name": "D3DPERF_BeginEvent",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 311,
+    "token": 4261414108,
+    "iat": 12752316,
+    "library": "d3d9.dll",
+    "name": "D3DPERF_EndEvent",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 312,
+    "token": 4261414112,
+    "iat": 12752320,
+    "library": "d3d9.dll",
+    "name": "Direct3DCreate9",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 313,
+    "token": 4261414116,
+    "iat": 12752324,
+    "library": "d3d9.dll",
+    "name": "D3DPERF_GetStatus",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 314,
+    "token": 4261414120,
+    "iat": 12752344,
+    "library": "fmod.dll",
+    "name": "?getSoftwareFormat@System@FMOD@@QAG?AW4FMOD_RESULT@@PAHPAW4FMOD_SPEAKERMODE@@0@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 315,
+    "token": 4261414124,
+    "iat": 12752348,
+    "library": "fmod.dll",
+    "name": "FMOD_Memory_GetStats",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 316,
+    "token": 4261414128,
+    "iat": 12752352,
+    "library": "fmod.dll",
+    "name": "?release@Sound@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 317,
+    "token": 4261414132,
+    "iat": 12752356,
+    "library": "fmod.dll",
+    "name": "?setUserData@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAX@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 318,
+    "token": 4261414136,
+    "iat": 12752360,
+    "library": "fmod.dll",
+    "name": "?getOpenState@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAW4FMOD_OPENSTATE@@PAIPA_N2@Z",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 319,
+    "token": 4261414140,
+    "iat": 12752364,
+    "library": "fmod.dll",
+    "name": "?getSubSound@Sound@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAV12@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 320,
+    "token": 4261414144,
+    "iat": 12752368,
+    "library": "fmod.dll",
+    "name": "?getNumSubSounds@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 321,
+    "token": 4261414148,
+    "iat": 12752372,
+    "library": "fmod.dll",
+    "name": "?getUserData@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAPAX@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 322,
+    "token": 4261414152,
+    "iat": 12752376,
+    "library": "fmod.dll",
+    "name": "?stop@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 323,
+    "token": 4261414156,
+    "iat": 12752380,
+    "library": "fmod.dll",
+    "name": "?getCurrentSound@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVSound@2@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 324,
+    "token": 4261414160,
+    "iat": 12752384,
+    "library": "fmod.dll",
+    "name": "?getChannel@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAVChannel@2@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 325,
+    "token": 4261414164,
+    "iat": 12752388,
+    "library": "fmod.dll",
+    "name": "?getNumChannels@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 326,
+    "token": 4261414168,
+    "iat": 12752392,
+    "library": "fmod.dll",
+    "name": "?getGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAV12@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 327,
+    "token": 4261414172,
+    "iat": 12752396,
+    "library": "fmod.dll",
+    "name": "?getNumGroups@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 328,
+    "token": 4261414176,
+    "iat": 12752400,
+    "library": "fmod.dll",
+    "name": "?getMasterChannelGroup@System@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVChannelGroup@2@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 329,
+    "token": 4261414180,
+    "iat": 12752404,
+    "library": "fmod.dll",
+    "name": "?getSystemObject@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVSystem@2@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 330,
+    "token": 4261414184,
+    "iat": 12752408,
+    "library": "fmod.dll",
+    "name": "?getChannel@System@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAVChannel@2@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 331,
+    "token": 4261414188,
+    "iat": 12752412,
+    "library": "fmod.dll",
+    "name": "?createSound@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDIPAUFMOD_CREATESOUNDEXINFO@@PAPAVSound@2@@Z",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 332,
+    "token": 4261414192,
+    "iat": 12752416,
+    "library": "fmod.dll",
+    "name": "?getLength@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAII@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 333,
+    "token": 4261414196,
+    "iat": 12752420,
+    "library": "fmod.dll",
+    "name": "?setDriver@System@FMOD@@QAG?AW4FMOD_RESULT@@H@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 334,
+    "token": 4261414200,
+    "iat": 12752424,
+    "library": "fmod.dll",
+    "name": "?getNumDrivers@System@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 335,
+    "token": 4261414204,
+    "iat": 12752428,
+    "library": "fmod.dll",
+    "name": "?setSoftwareFormat@System@FMOD@@QAG?AW4FMOD_RESULT@@HW4FMOD_SPEAKERMODE@@H@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 336,
+    "token": 4261414208,
+    "iat": 12752432,
+    "library": "fmod.dll",
+    "name": "?getVersion@System@FMOD@@QAG?AW4FMOD_RESULT@@PAI@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 337,
+    "token": 4261414212,
+    "iat": 12752436,
+    "library": "fmod.dll",
+    "name": "?setCallback@System@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW43@PAUFMOD_SYSTEM@@IPAX11@ZI@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 338,
+    "token": 4261414216,
+    "iat": 12752440,
+    "library": "fmod.dll",
+    "name": "?setReverbProperties@System@FMOD@@QAG?AW4FMOD_RESULT@@HPBUFMOD_REVERB_PROPERTIES@@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 339,
+    "token": 4261414220,
+    "iat": 12752444,
+    "library": "fmod.dll",
+    "name": "?getAudibility@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PAM@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 340,
+    "token": 4261414224,
+    "iat": 12752448,
+    "library": "fmod.dll",
+    "name": "?setPosition@Channel@FMOD@@QAG?AW4FMOD_RESULT@@II@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 341,
+    "token": 4261414228,
+    "iat": 12752452,
+    "library": "fmod.dll",
+    "name": "?getPosition@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAII@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 342,
+    "token": 4261414232,
+    "iat": 12752456,
+    "library": "fmod.dll",
+    "name": "?setFileSystem@System@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW43@PBDPAIPAPAXPAX@ZP6G?AW43@33@ZP6G?AW43@33I13@ZP6G?AW43@3I3@ZP6G?AW43@PAUFMOD_ASYNCREADINFO@@3@Z9H@Z",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 343,
+    "token": 4261414236,
+    "iat": 12752460,
+    "library": "fmod.dll",
+    "name": "FMOD_Memory_Initialize",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 344,
+    "token": 4261414240,
+    "iat": 12752464,
+    "library": "fmod.dll",
+    "name": "?set3DAttributes@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PBUFMOD_VECTOR@@00@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 345,
+    "token": 4261414244,
+    "iat": 12752468,
+    "library": "fmod.dll",
+    "name": "?setVolume@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@M@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 346,
+    "token": 4261414248,
+    "iat": 12752472,
+    "library": "fmod.dll",
+    "name": "?setPan@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@M@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 347,
+    "token": 4261414252,
+    "iat": 12752476,
+    "library": "fmod.dll",
+    "name": "?setPitch@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@M@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 348,
+    "token": 4261414256,
+    "iat": 12752480,
+    "library": "fmod.dll",
+    "name": "?set3DMinMaxDistance@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@MM@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 349,
+    "token": 4261414260,
+    "iat": 12752484,
+    "library": "fmod.dll",
+    "name": "?get3DMinMaxDistance@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PAM0@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 350,
+    "token": 4261414264,
+    "iat": 12752488,
+    "library": "fmod.dll",
+    "name": "?setParameterFloat@DSP@FMOD@@QAG?AW4FMOD_RESULT@@HM@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 351,
+    "token": 4261414268,
+    "iat": 12752492,
+    "library": "fmod.dll",
+    "name": "?setPaused@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 352,
+    "token": 4261414272,
+    "iat": 12752496,
+    "library": "fmod.dll",
+    "name": "?setMode@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@I@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 353,
+    "token": 4261414276,
+    "iat": 12752500,
+    "library": "fmod.dll",
+    "name": "?setLoopCount@Channel@FMOD@@QAG?AW4FMOD_RESULT@@H@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 354,
+    "token": 4261414280,
+    "iat": 12752504,
+    "library": "fmod.dll",
+    "name": "?setCallback@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW43@PAUFMOD_CHANNELCONTROL@@W4FMOD_CHANNELCONTROL_TYPE@@W4FMOD_CHANNELCONTROL_CALLBACK_TYPE@@PAX3@Z@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 355,
+    "token": 4261414284,
+    "iat": 12752508,
+    "library": "fmod.dll",
+    "name": "?getUserData@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PAPAX@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 356,
+    "token": 4261414288,
+    "iat": 12752512,
+    "library": "fmod.dll",
+    "name": "?setUserData@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PAX@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 357,
+    "token": 4261414292,
+    "iat": 12752516,
+    "library": "fmod.dll",
+    "name": "?isPlaying@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PA_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 358,
+    "token": 4261414296,
+    "iat": 12752520,
+    "library": "fmod.dll",
+    "name": "?getChannelGroup@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVChannelGroup@2@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 359,
+    "token": 4261414300,
+    "iat": 12752524,
+    "library": "fmod.dll",
+    "name": "?getSystemObject@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PAPAVSystem@2@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 360,
+    "token": 4261414304,
+    "iat": 12752528,
+    "library": "fmod.dll",
+    "name": "?release@DSP@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 361,
+    "token": 4261414308,
+    "iat": 12752532,
+    "library": "fmod.dll",
+    "name": "?addDSP@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@HPAVDSP@2@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 362,
+    "token": 4261414312,
+    "iat": 12752536,
+    "library": "fmod.dll",
+    "name": "?setParameterInt@DSP@FMOD@@QAG?AW4FMOD_RESULT@@HH@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 363,
+    "token": 4261414316,
+    "iat": 12752540,
+    "library": "fmod.dll",
+    "name": "?createDSPByType@System@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_DSP_TYPE@@PAPAVDSP@2@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 364,
+    "token": 4261414320,
+    "iat": 12752544,
+    "library": "fmod.dll",
+    "name": "?setReverbProperties@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@HM@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 365,
+    "token": 4261414324,
+    "iat": 12752548,
+    "library": "fmod.dll",
+    "name": "?setChannelGroup@Channel@FMOD@@QAG?AW4FMOD_RESULT@@PAVChannelGroup@2@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 366,
+    "token": 4261414328,
+    "iat": 12752552,
+    "library": "fmod.dll",
+    "name": "?getNumSyncPoints@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 367,
+    "token": 4261414332,
+    "iat": 12752556,
+    "library": "fmod.dll",
+    "name": "?getLoopPoints@Sound@FMOD@@QAG?AW4FMOD_RESULT@@PAII0I@Z",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 368,
+    "token": 4261414336,
+    "iat": 12752560,
+    "library": "fmod.dll",
+    "name": "?playSound@System@FMOD@@QAG?AW4FMOD_RESULT@@PAVSound@2@PAVChannelGroup@2@_NPAPAVChannel@2@@Z",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 369,
+    "token": 4261414340,
+    "iat": 12752564,
+    "library": "fmod.dll",
+    "name": "?setChannelFormat@DSP@FMOD@@QAG?AW4FMOD_RESULT@@IHW4FMOD_SPEAKERMODE@@@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 370,
+    "token": 4261414344,
+    "iat": 12752568,
+    "library": "fmod.dll",
+    "name": "?getDSP@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@HPAPAVDSP@2@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 371,
+    "token": 4261414348,
+    "iat": 12752572,
+    "library": "fmod.dll",
+    "name": "?setMute@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 372,
+    "token": 4261414352,
+    "iat": 12752576,
+    "library": "fmod.dll",
+    "name": "?getVolume@ChannelControl@FMOD@@QAG?AW4FMOD_RESULT@@PAM@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 373,
+    "token": 4261414356,
+    "iat": 12752580,
+    "library": "fmod.dll",
+    "name": "?release@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 374,
+    "token": 4261414360,
+    "iat": 12752584,
+    "library": "fmod.dll",
+    "name": "?addGroup@ChannelGroup@FMOD@@QAG?AW4FMOD_RESULT@@PAV12@_NPAPAVDSPConnection@2@@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 375,
+    "token": 4261414364,
+    "iat": 12752588,
+    "library": "fmod.dll",
+    "name": "?createChannelGroup@System@FMOD@@QAG?AW4FMOD_RESULT@@PBDPAPAVChannelGroup@2@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 376,
+    "token": 4261414368,
+    "iat": 12752592,
+    "library": "fmod.dll",
+    "name": "?mixerResume@System@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 377,
+    "token": 4261414372,
+    "iat": 12752596,
+    "library": "fmod.dll",
+    "name": "?mixerSuspend@System@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 378,
+    "token": 4261414376,
+    "iat": 12752604,
+    "library": "fmodstudio.dll",
+    "name": "?unload@Bank@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 379,
+    "token": 4261414380,
+    "iat": 12752608,
+    "library": "fmodstudio.dll",
+    "name": "?getLoadingState@Bank@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAW4FMOD_STUDIO_LOADING_STATE@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 380,
+    "token": 4261414384,
+    "iat": 12752612,
+    "library": "fmodstudio.dll",
+    "name": "?isValid@Bank@Studio@FMOD@@QBG_NXZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 381,
+    "token": 4261414388,
+    "iat": 12752616,
+    "library": "fmodstudio.dll",
+    "name": "?update@System@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 382,
+    "token": 4261414392,
+    "iat": 12752620,
+    "library": "fmodstudio.dll",
+    "name": "?loadBankFile@System@Studio@FMOD@@QAG?AW4FMOD_RESULT@@PBDIPAPAVBank@23@@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 383,
+    "token": 4261414396,
+    "iat": 12752624,
+    "library": "fmodstudio.dll",
+    "name": "?getSampleLoadingState@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAW4FMOD_STUDIO_LOADING_STATE@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 384,
+    "token": 4261414400,
+    "iat": 12752628,
+    "library": "fmodstudio.dll",
+    "name": "?unloadSampleData@EventDescription@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 385,
+    "token": 4261414404,
+    "iat": 12752632,
+    "library": "fmodstudio.dll",
+    "name": "?getEventByID@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PBUFMOD_GUID@@PAPAVEventDescription@23@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 386,
+    "token": 4261414408,
+    "iat": 12752636,
+    "library": "fmodstudio.dll",
+    "name": "?loadSampleData@EventDescription@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 387,
+    "token": 4261414412,
+    "iat": 12752640,
+    "library": "fmodstudio.dll",
+    "name": "?initialize@System@Studio@FMOD@@QAG?AW4FMOD_RESULT@@HIIPAX@Z",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 388,
+    "token": 4261414416,
+    "iat": 12752644,
+    "library": "fmodstudio.dll",
+    "name": "?getLowLevelSystem@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAV13@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 389,
+    "token": 4261414420,
+    "iat": 12752648,
+    "library": "fmodstudio.dll",
+    "name": "?create@System@Studio@FMOD@@SG?AW4FMOD_RESULT@@PAPAV123@I@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 390,
+    "token": 4261414424,
+    "iat": 12752652,
+    "library": "fmodstudio.dll",
+    "name": "?release@System@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 391,
+    "token": 4261414428,
+    "iat": 12752656,
+    "library": "fmodstudio.dll",
+    "name": "?lookupPath@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PBUFMOD_GUID@@PADHPAH@Z",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 392,
+    "token": 4261414432,
+    "iat": 12752660,
+    "library": "fmodstudio.dll",
+    "name": "?getID@Bus@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAUFMOD_GUID@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 393,
+    "token": 4261414436,
+    "iat": 12752664,
+    "library": "fmodstudio.dll",
+    "name": "?getBusList@Bank@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAVBus@23@HPAH@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 394,
+    "token": 4261414440,
+    "iat": 12752668,
+    "library": "fmodstudio.dll",
+    "name": "?getBusCount@Bank@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 395,
+    "token": 4261414444,
+    "iat": 12752672,
+    "library": "fmodstudio.dll",
+    "name": "?getID@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAUFMOD_GUID@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 396,
+    "token": 4261414448,
+    "iat": 12752676,
+    "library": "fmodstudio.dll",
+    "name": "?getEventList@Bank@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAVEventDescription@23@HPAH@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 397,
+    "token": 4261414452,
+    "iat": 12752680,
+    "library": "fmodstudio.dll",
+    "name": "?getEventCount@Bank@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 398,
+    "token": 4261414456,
+    "iat": 12752684,
+    "library": "fmodstudio.dll",
+    "name": "?getBankList@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAVBank@23@HPAH@Z",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 399,
+    "token": 4261414460,
+    "iat": 12752688,
+    "library": "fmodstudio.dll",
+    "name": "?getBankCount@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 400,
+    "token": 4261414464,
+    "iat": 12752692,
+    "library": "fmodstudio.dll",
+    "name": "?flushCommands@System@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 401,
+    "token": 4261414468,
+    "iat": 12752696,
+    "library": "fmodstudio.dll",
+    "name": "?set3DAttributes@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@PBUFMOD_3D_ATTRIBUTES@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 402,
+    "token": 4261414472,
+    "iat": 12752700,
+    "library": "fmodstudio.dll",
+    "name": "?is3D@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PA_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 403,
+    "token": 4261414476,
+    "iat": 12752704,
+    "library": "fmodstudio.dll",
+    "name": "?isValid@EventInstance@Studio@FMOD@@QBG_NXZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 404,
+    "token": 4261414480,
+    "iat": 12752708,
+    "library": "fmodstudio.dll",
+    "name": "?setVolume@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@M@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 405,
+    "token": 4261414484,
+    "iat": 12752712,
+    "library": "fmodstudio.dll",
+    "name": "?setPaused@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 406,
+    "token": 4261414488,
+    "iat": 12752716,
+    "library": "fmodstudio.dll",
+    "name": "?stop@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@W4FMOD_STUDIO_STOP_MODE@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 407,
+    "token": 4261414492,
+    "iat": 12752720,
+    "library": "fmodstudio.dll",
+    "name": "?trigger@CueInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 408,
+    "token": 4261414496,
+    "iat": 12752724,
+    "library": "fmodstudio.dll",
+    "name": "?setValue@ParameterInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@M@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 409,
+    "token": 4261414500,
+    "iat": 12752728,
+    "library": "fmodstudio.dll",
+    "name": "?getParameter@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PBDPAPAVParameterInstance@23@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 410,
+    "token": 4261414504,
+    "iat": 12752732,
+    "library": "fmodstudio.dll",
+    "name": "?getCueByIndex@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@HPAPAVCueInstance@23@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 411,
+    "token": 4261414508,
+    "iat": 12752736,
+    "library": "fmodstudio.dll",
+    "name": "?setTimelinePosition@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@H@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 412,
+    "token": 4261414512,
+    "iat": 12752740,
+    "library": "fmodstudio.dll",
+    "name": "?setListenerAttributes@System@Studio@FMOD@@QAG?AW4FMOD_RESULT@@HPBUFMOD_3D_ATTRIBUTES@@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 413,
+    "token": 4261414516,
+    "iat": 12752744,
+    "library": "fmodstudio.dll",
+    "name": "?getParameterCount@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 414,
+    "token": 4261414520,
+    "iat": 12752748,
+    "library": "fmodstudio.dll",
+    "name": "?getParameterByIndex@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@HPAUFMOD_STUDIO_PARAMETER_DESCRIPTION@@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 415,
+    "token": 4261414524,
+    "iat": 12752752,
+    "library": "fmodstudio.dll",
+    "name": "?lockChannelGroup@Bus@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 416,
+    "token": 4261414528,
+    "iat": 12752756,
+    "library": "fmodstudio.dll",
+    "name": "?unlockChannelGroup@Bus@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 417,
+    "token": 4261414532,
+    "iat": 12752760,
+    "library": "fmodstudio.dll",
+    "name": "?isValid@Bus@Studio@FMOD@@QBG_NXZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 418,
+    "token": 4261414536,
+    "iat": 12752764,
+    "library": "fmodstudio.dll",
+    "name": "?getChannelGroup@Bus@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAVChannelGroup@3@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 419,
+    "token": 4261414540,
+    "iat": 12752768,
+    "library": "fmodstudio.dll",
+    "name": "?setPaused@Bus@Studio@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 420,
+    "token": 4261414544,
+    "iat": 12752772,
+    "library": "fmodstudio.dll",
+    "name": "?setMute@Bus@Studio@FMOD@@QAG?AW4FMOD_RESULT@@_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 421,
+    "token": 4261414548,
+    "iat": 12752776,
+    "library": "fmodstudio.dll",
+    "name": "?setFaderLevel@Bus@Studio@FMOD@@QAG?AW4FMOD_RESULT@@M@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 422,
+    "token": 4261414552,
+    "iat": 12752780,
+    "library": "fmodstudio.dll",
+    "name": "?getBusByID@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PBUFMOD_GUID@@PAPAVBus@23@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 423,
+    "token": 4261414556,
+    "iat": 12752784,
+    "library": "fmodstudio.dll",
+    "name": "?setCallback@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@P6G?AW44@IPAUFMOD_STUDIO_EVENTINSTANCE@@PAX@ZI@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 424,
+    "token": 4261414560,
+    "iat": 12752788,
+    "library": "fmodstudio.dll",
+    "name": "?setUserData@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@PAX@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 425,
+    "token": 4261414564,
+    "iat": 12752792,
+    "library": "fmodstudio.dll",
+    "name": "?getSoundInfo@System@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PBDPAUFMOD_STUDIO_SOUND_INFO@@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 426,
+    "token": 4261414568,
+    "iat": 12752796,
+    "library": "fmodstudio.dll",
+    "name": "?createInstance@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAVEventInstance@23@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 427,
+    "token": 4261414572,
+    "iat": 12752800,
+    "library": "fmodstudio.dll",
+    "name": "?start@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 428,
+    "token": 4261414576,
+    "iat": 12752804,
+    "library": "fmodstudio.dll",
+    "name": "?isValid@ParameterInstance@Studio@FMOD@@QBG_NXZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 429,
+    "token": 4261414580,
+    "iat": 12752808,
+    "library": "fmodstudio.dll",
+    "name": "?getTimelinePosition@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 430,
+    "token": 4261414584,
+    "iat": 12752812,
+    "library": "fmodstudio.dll",
+    "name": "?getLength@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 431,
+    "token": 4261414588,
+    "iat": 12752816,
+    "library": "fmodstudio.dll",
+    "name": "?getChannelGroup@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAVChannelGroup@3@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 432,
+    "token": 4261414592,
+    "iat": 12752820,
+    "library": "fmodstudio.dll",
+    "name": "?getPlaybackState@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAW4FMOD_STUDIO_PLAYBACK_STATE@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 433,
+    "token": 4261414596,
+    "iat": 12752824,
+    "library": "fmodstudio.dll",
+    "name": "?isOneshot@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PA_N@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 434,
+    "token": 4261414600,
+    "iat": 12752828,
+    "library": "fmodstudio.dll",
+    "name": "?isValid@EventDescription@Studio@FMOD@@QBG_NXZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 435,
+    "token": 4261414604,
+    "iat": 12752832,
+    "library": "fmodstudio.dll",
+    "name": "?release@EventInstance@Studio@FMOD@@QAG?AW4FMOD_RESULT@@XZ",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 436,
+    "token": 4261414608,
+    "iat": 12752836,
+    "library": "fmodstudio.dll",
+    "name": "?getUserData@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAPAX@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 437,
+    "token": 4261414612,
+    "iat": 12752840,
+    "library": "fmodstudio.dll",
+    "name": "?getDescription@ParameterInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAUFMOD_STUDIO_PARAMETER_DESCRIPTION@@@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 438,
+    "token": 4261414616,
+    "iat": 12752844,
+    "library": "fmodstudio.dll",
+    "name": "?getParameterByIndex@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@HPAPAVParameterInstance@23@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 439,
+    "token": 4261414620,
+    "iat": 12752848,
+    "library": "fmodstudio.dll",
+    "name": "?getParameterCount@EventInstance@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PAH@Z",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 440,
+    "token": 4261414624,
+    "iat": 12752852,
+    "library": "fmodstudio.dll",
+    "name": "?getUserProperty@EventDescription@Studio@FMOD@@QBG?AW4FMOD_RESULT@@PBDPAUFMOD_STUDIO_USER_PROPERTY@@@Z",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 441,
+    "token": 4261414628,
+    "iat": 12750904,
+    "library": "COMCTL32.dll",
+    "name": "#17",
+    "nargs": 0,
+    "convention": "unknown"
+  },
+  {
+    "index": 442,
+    "token": 4261414632,
+    "iat": 12750908,
+    "library": "COMCTL32.dll",
+    "name": "_TrackMouseEvent",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 443,
+    "token": 4261414636,
+    "iat": 12750912,
+    "library": "COMCTL32.dll",
+    "name": "InitCommonControlsEx",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 444,
+    "token": 4261414640,
+    "iat": 12750928,
+    "library": "GDI32.dll",
+    "name": "CreateDCW",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 445,
+    "token": 4261414644,
+    "iat": 12750932,
+    "library": "GDI32.dll",
+    "name": "GetBitmapBits",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 446,
+    "token": 4261414648,
+    "iat": 12750936,
+    "library": "GDI32.dll",
+    "name": "SetStretchBltMode",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 447,
+    "token": 4261414652,
+    "iat": 12750940,
+    "library": "GDI32.dll",
+    "name": "SetTextColor",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 448,
+    "token": 4261414656,
+    "iat": 12750944,
+    "library": "GDI32.dll",
+    "name": "SetBkMode",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 449,
+    "token": 4261414660,
+    "iat": 12750948,
+    "library": "GDI32.dll",
+    "name": "StretchBlt",
+    "nargs": 11,
+    "convention": "stdcall"
+  },
+  {
+    "index": 450,
+    "token": 4261414664,
+    "iat": 12750952,
+    "library": "GDI32.dll",
+    "name": "GetStockObject",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 451,
+    "token": 4261414668,
+    "iat": 12750956,
+    "library": "GDI32.dll",
+    "name": "GetObjectW",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 452,
+    "token": 4261414672,
+    "iat": 12750960,
+    "library": "GDI32.dll",
+    "name": "CreateSolidBrush",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 453,
+    "token": 4261414676,
+    "iat": 12750964,
+    "library": "GDI32.dll",
+    "name": "GetDeviceCaps",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 454,
+    "token": 4261414680,
+    "iat": 12750968,
+    "library": "GDI32.dll",
+    "name": "BitBlt",
+    "nargs": 9,
+    "convention": "stdcall"
+  },
+  {
+    "index": 455,
+    "token": 4261414684,
+    "iat": 12750972,
+    "library": "GDI32.dll",
+    "name": "CreateCompatibleDC",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 456,
+    "token": 4261414688,
+    "iat": 12750976,
+    "library": "GDI32.dll",
+    "name": "CreateCompatibleBitmap",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 457,
+    "token": 4261414692,
+    "iat": 12750980,
+    "library": "GDI32.dll",
+    "name": "DeleteDC",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 458,
+    "token": 4261414696,
+    "iat": 12750984,
+    "library": "GDI32.dll",
+    "name": "SelectObject",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 459,
+    "token": 4261414700,
+    "iat": 12750988,
+    "library": "GDI32.dll",
+    "name": "DeleteObject",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 460,
+    "token": 4261414704,
+    "iat": 12751768,
+    "library": "SHELL32.dll",
+    "name": "ShellExecuteExW",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 461,
+    "token": 4261414708,
+    "iat": 12751772,
+    "library": "SHELL32.dll",
+    "name": "ShellExecuteW",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 462,
+    "token": 4261414712,
+    "iat": 12751776,
+    "library": "SHELL32.dll",
+    "name": "SHGetFolderPathW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 463,
+    "token": 4261414716,
+    "iat": 12752860,
+    "library": "ole32.dll",
+    "name": "CoCreateGuid",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 464,
+    "token": 4261414720,
+    "iat": 12752864,
+    "library": "ole32.dll",
+    "name": "CoSetProxyBlanket",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 465,
+    "token": 4261414724,
+    "iat": 12752868,
+    "library": "ole32.dll",
+    "name": "CoInitializeEx",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 466,
+    "token": 4261414728,
+    "iat": 12752872,
+    "library": "ole32.dll",
+    "name": "OleUninitialize",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 467,
+    "token": 4261414732,
+    "iat": 12752876,
+    "library": "ole32.dll",
+    "name": "OleInitialize",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 468,
+    "token": 4261414736,
+    "iat": 12752880,
+    "library": "ole32.dll",
+    "name": "CreateStreamOnHGlobal",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 469,
+    "token": 4261414740,
+    "iat": 12752884,
+    "library": "ole32.dll",
+    "name": "CLSIDFromString",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 470,
+    "token": 4261414744,
+    "iat": 12752888,
+    "library": "ole32.dll",
+    "name": "CLSIDFromProgID",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 471,
+    "token": 4261414748,
+    "iat": 12752892,
+    "library": "ole32.dll",
+    "name": "CoGetClassObject",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 472,
+    "token": 4261414752,
+    "iat": 12752896,
+    "library": "ole32.dll",
+    "name": "OleLockRunning",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 473,
+    "token": 4261414756,
+    "iat": 12752900,
+    "library": "ole32.dll",
+    "name": "StringFromGUID2",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 474,
+    "token": 4261414760,
+    "iat": 12752904,
+    "library": "ole32.dll",
+    "name": "CoUninitialize",
+    "nargs": 0,
+    "convention": "stdcall"
+  },
+  {
+    "index": 475,
+    "token": 4261414764,
+    "iat": 12752908,
+    "library": "ole32.dll",
+    "name": "CoTaskMemFree",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 476,
+    "token": 4261414768,
+    "iat": 12752912,
+    "library": "ole32.dll",
+    "name": "CoCreateInstance",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 477,
+    "token": 4261414772,
+    "iat": 12752916,
+    "library": "ole32.dll",
+    "name": "CoTaskMemRealloc",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 478,
+    "token": 4261414776,
+    "iat": 12752920,
+    "library": "ole32.dll",
+    "name": "CoTaskMemAlloc",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 479,
+    "token": 4261414780,
+    "iat": 12751720,
+    "library": "OLEAUT32.dll",
+    "name": "SysFreeString",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 480,
+    "token": 4261414784,
+    "iat": 12751724,
+    "library": "OLEAUT32.dll",
+    "name": "SysStringLen",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 481,
+    "token": 4261414788,
+    "iat": 12751728,
+    "library": "OLEAUT32.dll",
+    "name": "SysAllocStringLen",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 482,
+    "token": 4261414792,
+    "iat": 12751732,
+    "library": "OLEAUT32.dll",
+    "name": "SysAllocString",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 483,
+    "token": 4261414796,
+    "iat": 12751736,
+    "library": "OLEAUT32.dll",
+    "name": "VarUI4FromStr",
+    "nargs": 4,
+    "convention": "stdcall"
+  },
+  {
+    "index": 484,
+    "token": 4261414800,
+    "iat": 12751740,
+    "library": "OLEAUT32.dll",
+    "name": "VariantInit",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 485,
+    "token": 4261414804,
+    "iat": 12751744,
+    "library": "OLEAUT32.dll",
+    "name": "VariantClear",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 486,
+    "token": 4261414808,
+    "iat": 12751748,
+    "library": "OLEAUT32.dll",
+    "name": "OleCreateFontIndirect",
+    "nargs": 3,
+    "convention": "stdcall"
+  },
+  {
+    "index": 487,
+    "token": 4261414812,
+    "iat": 12751752,
+    "library": "OLEAUT32.dll",
+    "name": "LoadRegTypeLib",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 488,
+    "token": 4261414816,
+    "iat": 12751756,
+    "library": "OLEAUT32.dll",
+    "name": "LoadTypeLib",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 489,
+    "token": 4261414820,
+    "iat": 12751760,
+    "library": "OLEAUT32.dll",
+    "name": "SysStringByteLen",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 490,
+    "token": 4261414824,
+    "iat": 12750848,
+    "library": "ADVAPI32.dll",
+    "name": "RegDeleteValueW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 491,
+    "token": 4261414828,
+    "iat": 12750852,
+    "library": "ADVAPI32.dll",
+    "name": "RegCloseKey",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 492,
+    "token": 4261414832,
+    "iat": 12750856,
+    "library": "ADVAPI32.dll",
+    "name": "RegSetValueExW",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 493,
+    "token": 4261414836,
+    "iat": 12750860,
+    "library": "ADVAPI32.dll",
+    "name": "RegQueryInfoKeyW",
+    "nargs": 12,
+    "convention": "stdcall"
+  },
+  {
+    "index": 494,
+    "token": 4261414840,
+    "iat": 12750864,
+    "library": "ADVAPI32.dll",
+    "name": "RegOpenKeyExW",
+    "nargs": 5,
+    "convention": "stdcall"
+  },
+  {
+    "index": 495,
+    "token": 4261414844,
+    "iat": 12750868,
+    "library": "ADVAPI32.dll",
+    "name": "RegCreateKeyExW",
+    "nargs": 9,
+    "convention": "stdcall"
+  },
+  {
+    "index": 496,
+    "token": 4261414848,
+    "iat": 12750872,
+    "library": "ADVAPI32.dll",
+    "name": "RegisterEventSourceW",
+    "nargs": 2,
+    "convention": "stdcall"
+  },
+  {
+    "index": 497,
+    "token": 4261414852,
+    "iat": 12750876,
+    "library": "ADVAPI32.dll",
+    "name": "ReportEventW",
+    "nargs": 9,
+    "convention": "stdcall"
+  },
+  {
+    "index": 498,
+    "token": 4261414856,
+    "iat": 12750880,
+    "library": "ADVAPI32.dll",
+    "name": "DeregisterEventSource",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 499,
+    "token": 4261414860,
+    "iat": 12750884,
+    "library": "ADVAPI32.dll",
+    "name": "RegQueryValueExW",
+    "nargs": 6,
+    "convention": "stdcall"
+  },
+  {
+    "index": 500,
+    "token": 4261414864,
+    "iat": 12750888,
+    "library": "ADVAPI32.dll",
+    "name": "RegFlushKey",
+    "nargs": 1,
+    "convention": "stdcall"
+  },
+  {
+    "index": 501,
+    "token": 4261414868,
+    "iat": 12750892,
+    "library": "ADVAPI32.dll",
+    "name": "RegEnumKeyExW",
+    "nargs": 8,
+    "convention": "stdcall"
+  },
+  {
+    "index": 502,
+    "token": 4261414872,
+    "iat": 12750896,
+    "library": "ADVAPI32.dll",
+    "name": "RegDeleteKeyW",
+    "nargs": 2,
+    "convention": "stdcall"
+  }
+]
